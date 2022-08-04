@@ -9,5 +9,9 @@ another.
 
 To run the project execute
 ```bash
+git clone https://github.com/laychopy/currencies-rest-api.git
+npm install
 npm start
 ```
+Then open postman and load the collection.
+By default it run on port 3000.
