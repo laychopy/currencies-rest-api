@@ -1,0 +1,1 @@
+module.exports.currencyService = require('./currency.service');
