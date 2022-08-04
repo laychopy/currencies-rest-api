@@ -14,4 +14,4 @@ npm install
 npm start
 ```
 Then open postman and load the collection.
-By default it run on port 3000.
+By default it runs on port 3000.
