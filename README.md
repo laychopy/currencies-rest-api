@@ -7,5 +7,5 @@ another.
 
 ## Instructions
 
-To run the project execute
-<!-- node_modules/.bin/sequelize db:seed:all -->
+To run the project execute run:
+ * npm start
