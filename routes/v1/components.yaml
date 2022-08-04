@@ -1,0 +1,44 @@
+components:
+  schemas:
+    Currency:
+      type: object
+      properties:
+        id:
+          type: integer
+        name:
+          type: string
+        symbol:
+          type: string
+        usdValue:
+          type: number
+      example:
+        id: 1
+        name: Bitcoin
+        symbol: BTC
+        usdValue: 21000.12
+
+
+  responses:
+    Unauthorized:
+      description: Unauthorized
+      content:
+        application/json:
+          schema:
+            $ref: '#/components/schemas/Error'
+          example:
+            code: 401
+            message: Please authenticate
+    NotFound:
+      description: Not found
+      content:
+        application/json:
+          schema:
+            $ref: '#/components/schemas/Error'
+          example:
+            code: 404
+            message: Not found
+
+  securitySchemes:
+    basicAuth:    
+      type: http
+      scheme: basic
