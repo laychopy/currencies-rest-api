@@ -8,4 +8,6 @@ another.
 ## Instructions
 
 To run the project execute
-<!-- node_modules/.bin/sequelize db:seed:all -->
+```bash
+npm start
+```
